@@ -46,6 +46,11 @@ class VueRouter {
 }
 
 
+/**
+ * 这是dev 分支信息修改信息
+ *  
+ *  */ 
+
 VueRouter.install = (Vue) => {
     // 给每个组件挂载 $router  $route 属性
     Vue.mixin({
